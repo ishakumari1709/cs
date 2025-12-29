@@ -11,17 +11,17 @@ python-dotenv==1.0.0
 requests==2.31.0
 
 # LangChain - using compatible versions
-langchain==0.1.0
-langchain-community==0.0.10
-langchain-text-splitters==0.0.1
-langchain-huggingface==0.0.1
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+langchain-huggingface>=0.0.3
 
 # Vector Database - using newer version with better wheel support
 chromadb>=0.4.22
 
 # Embeddings
-# Embeddings
-sentence-transformers>=2.3.0,<3.0.0
+
+sentence-transformers>=2.3.0
 
 # ML/AI
 huggingface-hub>=0.23.0,<1.0.0
