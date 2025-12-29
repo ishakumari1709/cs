@@ -35,7 +35,7 @@ Pillow>=10.2.0
 # transformers==4.35.2
 # torch>=2.6.0
 # accelerate==0.25.0
-huggingface-hub==0.19.4
+huggingface-hub>=0.23.0
 
 # OCR dependencies - COMMENTED OUT for Render deployment
 # These cause build issues on Render. Uncomment if needed after successful deployment.
