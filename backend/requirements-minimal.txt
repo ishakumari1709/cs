@@ -1,0 +1,37 @@
+# Minimal requirements to get the server running
+# These packages have pre-built wheels for Python 3.13
+
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+sqlalchemy==2.0.23
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# LangChain - using compatible versions
+langchain==0.1.0
+langchain-community==0.0.10
+
+# Vector Database
+chromadb==0.4.18
+
+# Embeddings (may need to install separately)
+# sentence-transformers==2.2.2
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+pypdf==3.17.1
+
+# Image Processing
+Pillow>=10.2.0
+
+# OCR dependencies
+pytesseract==0.3.10
+
+# HuggingFace Hub (for API access)
+huggingface-hub==0.19.4
+
+# Note: ML packages (torch, transformers) can be installed later if needed
+# For now, the system will work with HuggingFace API or fallback responses
+
