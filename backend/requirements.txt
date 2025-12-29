@@ -1,0 +1,52 @@
+# Build dependencies - install first
+numpy>=1.24.0
+
+# Core API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+sqlalchemy==2.0.23
+pydantic==2.5.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# LangChain - using compatible versions
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-text-splitters==0.0.1
+langchain-huggingface==0.0.1
+
+# Vector Database - using newer version with better wheel support
+chromadb>=0.4.22
+
+# Embeddings
+sentence-transformers==2.2.2
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+pypdf==3.17.1
+
+# Image Processing
+Pillow>=10.2.0
+
+# ML/AI
+# Note: Installing numpy first with pre-built wheel to avoid compilation issues
+# transformers==4.35.2
+# torch>=2.6.0
+# accelerate==0.25.0
+huggingface-hub==0.19.4
+
+# OCR dependencies (choose one or both)
+# Option 1: Tesseract (requires system installation)
+pytesseract==0.3.10
+
+# Option 2: EasyOCR (no system dependencies, but larger)
+easyocr==1.7.0
+
+# Optional: For better PDF processing
+pypdf==3.17.1
+
+# Async file operations
+aiofiles==23.2.1
+
