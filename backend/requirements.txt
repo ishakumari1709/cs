@@ -20,7 +20,11 @@ langchain-huggingface==0.0.1
 chromadb>=0.4.22
 
 # Embeddings
-sentence-transformers==2.2.2
+# Embeddings
+sentence-transformers>=2.3.0,<3.0.0
+
+# ML/AI
+huggingface-hub>=0.23.0,<1.0.0
 
 # Document Processing
 PyPDF2==3.0.1
